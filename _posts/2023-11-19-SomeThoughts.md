@@ -43,6 +43,12 @@ docker因为不熟悉花了一点时间。但最麻烦还是
 
 最终的docker image放在mdqiu/easyocr-runpod-api里头了。做的过程比较恶心，以后有机会重新来调整。
 
+处理runpod.io的部分反而难度不大，整体思路遵循这篇[blog](https://blog.runpod.io/serverless-create-a-basic-api/)即可。
+
+最后用的时候注意在model里指定用gpu。
+
+第一次上传的时候不知道为什么，runpod一直在initializing的状态。重新换了一下docker就好了。
+
 # node fetch
 我真的服了，nodejs里头发一个post request这么多种方案。
 

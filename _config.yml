@@ -73,9 +73,11 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
+# gems:
+plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-include-cache
 
 # Exclude these files from your production _site
 exclude:
@@ -87,3 +89,14 @@ exclude:
 
 # remote theme added
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+
+# theme configurations
+minimal_mistakes_skin: "dark"
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+date_format: "%Y-%m-%d"

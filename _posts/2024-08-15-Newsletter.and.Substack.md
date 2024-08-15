@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 关于lservice与lctpc的重构
+title: 研究一下Substack
 tags: trading,weekly
 ---
 

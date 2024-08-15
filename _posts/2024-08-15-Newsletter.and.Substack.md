@@ -25,3 +25,9 @@ tags: trading,weekly
 这样就实现了用Markdown写文章，然后Markdown => Github Pages => Substack的自动过程。同时借用了Github Pages的版本管理功能。
 
 试了一下是OK的，顺便看了一下这篇（虽然实际上，默认配置已经弄好了）[https://dzhavat.github.io/2020/01/19/adding-an-rss-feed-to-github-pages.html]
+
+# Misc.
+
+空了要研究一下更新Jekyll的Theme
+
+还有这篇关于Feed的研究一下：[https://gist.github.com/roachhd/f664d2cae2da899be3f6]

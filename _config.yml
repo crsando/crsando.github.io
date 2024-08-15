@@ -87,16 +87,20 @@ exclude:
   - README.md
   - CNAME
 
+
+theme: jekyll-theme-minimal
+
 # remote theme added
-remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+# minimal_mistakes_skin: "dark"
+# remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 
 # theme configurations
-minimal_mistakes_skin: "dark"
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      show_date: true
-date_format: "%Y-%m-%d"
+# minimal_mistakes_skin: "dark"
+# defaults:
+#   # _posts
+#   - scope:
+#       path: ""
+#       type: posts
+#     values:
+#       show_date: true
+# date_format: "%Y-%m-%d"

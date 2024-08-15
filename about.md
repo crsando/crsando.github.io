@@ -1,15 +1,16 @@
 ---
-layout: page
-title: About
-permalink: /about/
+layout: default
+title: About me
 ---
 
-Some information about you!
+## Hey there! I’m Dzhavat 👋
 
-### More Information
+I’m a front-end developer currently focused on building web application with Angular.
 
-A place to include any other types of information that you'd like to include about yourself.
+#### How’s your name pronounced?
 
-### Contact me
+If you find my name difficult to pronounce, I completely understand you. Having three consonants in a row makes for a very hard combination. That’s why I've recorded myself saying it, so you can learn it too. 😉
 
-[email@domain.com](mailto:email@domain.com)
+<audio id="name" controls="">
+	<source src="/assets/audio/name-pronounciation.mp3" type="audio/mpeg">
+</audio>

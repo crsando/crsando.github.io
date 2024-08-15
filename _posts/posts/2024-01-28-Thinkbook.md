@@ -2,6 +2,7 @@
 layout: post
 title: ThinkBook 14+ AI 2024
 tags: thinking,life
+category: posts
 ---
 
 原本的Surface Pro 9太卡了，其实主要是内存的问题。曾经我以为16g内存对于轻度办公已经足够了。

@@ -2,6 +2,7 @@
 layout: post
 title: 最近的一点想法
 tags: thinking,life
+category: posts
 ---
 
 # 座谈

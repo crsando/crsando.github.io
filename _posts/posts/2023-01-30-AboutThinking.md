@@ -2,6 +2,7 @@
 layout: post
 title: About Thinking
 tags: thinking
+category: posts
 ---
 
 2022年看了很多心理学的书，自己也思考了很多。特别是结合Trading方面的心理学思想。

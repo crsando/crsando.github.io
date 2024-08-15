@@ -2,6 +2,7 @@
 layout: post
 title: 开始折腾家庭网络和软路由
 tags: life,network,home
+category: posts
 ---
 
 从辞职回家后就一直琢磨怎么升级一下家庭的网络，主要是这么几个出发点

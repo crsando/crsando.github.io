@@ -2,6 +2,7 @@
 layout: post
 title: 在Thinkpad T460s上安装Ubuntu 24.04 LTS
 tags: life,network,home
+category: posts
 ---
 
 # Thinkpad

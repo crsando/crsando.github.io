@@ -2,6 +2,7 @@
 layout: post
 title: 研究一下Substack
 tags: trading,weekly
+category: posts
 ---
 
 # background

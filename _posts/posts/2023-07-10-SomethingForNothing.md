@@ -2,6 +2,7 @@
 layout: post
 title: 【漫谈】抑郁
 tags: board
+category: posts
 ---
 
 上次6月27日的文章发出来后，大A走了一个A字，差不多把涨的都跌回来了，今天继续一个高开低走。

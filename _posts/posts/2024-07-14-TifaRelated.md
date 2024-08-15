@@ -2,6 +2,7 @@
 layout: post
 title: tifa.lua的关于k线部分的修改
 tags: trading,weekly
+category: posts
 ---
 
 之前写tifa.lua的k线聚合模块的时候感觉搞的太复杂了，尝试简化回来。

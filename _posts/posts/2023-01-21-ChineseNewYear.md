@@ -2,6 +2,7 @@
 layout: post
 title: Happy Chinese New Year !
 tags: life
+category: posts
 ---
 
 又是一年春节

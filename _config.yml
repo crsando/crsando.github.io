@@ -1,7 +1,9 @@
 highlighter: rouge
 plugins:
   - jekyll-feed
-title: Dzhavat Ushev’s blog
+name: Crsando's Blog
+title: Crsando's Blog
 description: Welcome to my blog
-author: Dzhavat Ushev
+author: Crsando
 permalink: /:year/:month/:day/:title:output_ext
+url: https://crsando.github.io

@@ -82,3 +82,4 @@ category: posts
 - [BOJ的政治正确](https://mp.weixin.qq.com/s/T5lyDk_Vu0YcsCFcrYTRCQ)
 - [踩踏](https://mp.weixin.qq.com/s/UOtlDIy2a2R3fSKAvQI7CQ)
 - [在这段被下架的视频里，谷歌前CEO说了很多真话](https://mp.weixin.qq.com/s/l48whFptb-bINtZi2gIG9A)
+- [下半年A股交易核心：GDP的5%政策预期](https://mp.weixin.qq.com/s/PRHbYPu8t9jPG26_jjJ_xw)

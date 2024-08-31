@@ -96,5 +96,4 @@ category: posts
 
 ### Reference & Further Readings
 
-- [美日经济没有衰退 美日股崩盘是一场类似微盘股崩盘的量化危机](https://mp.weixin.qq.com/s/Bm-oCqN6c_mqx7avnxM06g)
-- [FX期权显示情绪太异常了！](https://mp.weixin.qq.com/s/JUNAtuvy6HKyG4cRt8AI1Q)
+- [怎么看存量按揭利率小作文](https://mp.weixin.qq.com/s/k2YqUP7fV7P-gMJjBQITjg)

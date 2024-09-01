@@ -70,6 +70,23 @@ category: posts
 
 不知道上文说的改革举措的“节奏时机”，指的是不是现在？
 
+### Personal Thoughts
+
+> 9/1补充内容
+
+看了一圈，我觉得大A市场的核心分歧点，在于如果有行情的话，这波行情的叙事到底是bloomberg的小作文还是中美关系缓和的叙事。
+
+下周一开盘的1个小时感觉真的会非常焦虑。这里的总体策略还是控制仓位在50%以下，找机会短多反弹吧。
+
+上周五得日年A字型走势，恒生科技和A50期货得日内转折点都在下午开盘的13:00-13:30，且A50先反应。几个我比较在乎的标的，尤其是阿里我觉得
+这里还是相当看多的。KWEB的走势很奇妙，我偏向于看反弹多或者震荡多。
+
+![](https://crsando.github.io/images/2024-09-01/kweb.png)
+
+铜我偏向于探二底，但是铜的强度相对于油来说比较高，不太好说。铜的走势应该和大A的复苏更相关，而油更依赖于美国的需求结构。
+
+最后，我偏向于上周的这些走法和美元DXY的一根强势的周线反弹有关。而DXY的反弹我觉得更多是技术上的（日线周线到前低），但我真的不认为DXY能反弹多少，我觉得这里没有强美元的逻辑。对于DXY反弹的担忧可能是制约风险资产反弹的主要技术面因素，所以带来了如此巨大的日内走势波动。
+
 # Key Facts & News
 
 - 8/26:
@@ -91,7 +108,17 @@ category: posts
     - 市场监管总局宣布，督导阿里巴巴集团控股有限公司完成三年整改，标志着对这家电商巨头三年多的反垄断监管告一段落
 - 8/31: 8月份制造业采购经理指数PMI为49.1%，比上月下降0.3个百分点，连续4个月位于荣枯线之下。
 
+# Key Events Comming
+
+- 9/2: Caixin Manufacturing PMI
+- 9/3: US ISM Manufacturing PMI (22:00)
+- 9/5: US ISM Service PMI (22:00)
+- 9/6: US Non Farm Payrolls, Unemployment Rate
 
 ### Reference & Further Readings
 
 - [怎么看存量按揭利率小作文](https://mp.weixin.qq.com/s/k2YqUP7fV7P-gMJjBQITjg)
+- [9月FOMC：隧道尽头的光(?)](https://mp.weixin.qq.com/s/8OObK40BNZRuUf_N_y-B1w)
+- [重发：中国不适合MMT；存量房贷降息，是唯一的出路](https://mp.weixin.qq.com/s/VVhrsQ0DbWSKMv1RNcleNg)
+- [见底了...吗？（8.30调仓记录）](https://mp.weixin.qq.com/s/ol9Ogn2HUB-V6cl8v82wBw)
+- [彭博小作文周五扰动市场后又无疾而终，后市该如何走？](https://mp.weixin.qq.com/s/FMXfnwxaHsdXXRkNIvJ70Q)

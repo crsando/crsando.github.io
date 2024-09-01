@@ -7,6 +7,11 @@ title: About me
 
 I’m a man
 
+... and Individual **Trader**/Investor, Full-Stack Programmer, Bachelor in **Math**, Survivor of Chinese Mathematical Competitions, Lover of **Driving**/M-Power, ...
+
+**Crsando** is the name of my major character (Holy Paladin, to be more specific) in **World of Warcraft**. I really enjoy this game during version 7.0 to 8.1, and have just comeback (afk for several years actually) along with the return 
+of WoW in China.
+
 #### How’s your name pronounced?
 
 If you find my name difficult to pronounce, I completely understand you. 

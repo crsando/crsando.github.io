@@ -12,6 +12,8 @@ I’m a man
 **Crsando** is the name of my major character (Holy Paladin, to be more specific) in **World of Warcraft**. I really enjoy this game during version 7.0 to 8.1, and have just comeback (afk for several years actually) along with the return 
 of WoW in China.
 
+![](https://crsando.github.io/images/wow-enter.png)
+
 #### How’s your name pronounced?
 
 If you find my name difficult to pronounce, I completely understand you. 

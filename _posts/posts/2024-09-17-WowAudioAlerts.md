@@ -46,3 +46,8 @@ BOSS的监控我都用dbm了。对于地图上的小怪的重要技能，写法�
 ### 其它
 
 有一个音量问题。在WoW中，WA的音效是受“主音量”控制的。所以比较建议的做法是把主音量调到100%，其它音量根据需求调整（低一点）。
+
+### Reference
+
+- [colab_webui.ipynb](https://colab.research.google.com/github/RVC-Boss/GPT-SoVITS/blob/main/colab_webui.ipynb#scrollTo=0NgxXg5sjv7z)
+

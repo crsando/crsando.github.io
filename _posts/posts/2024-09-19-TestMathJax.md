@@ -16,3 +16,14 @@ Github Docs 支持直接在Markdown里写数学公式，比如
 ```math
     (x+1)^n = \sum_{i=1}^{n} ( i ! \cdot (n-i) ! ) / ( n ! ) \cdot x^i
 ```
+
+
+还在研究当中，这里记录一点研究的内容
+
+
+### Reference
+
+- [MathJax](https://www.mathjax.org/)
+- [Using MathJax on a Github Page?](https://stackoverflow.com/questions/34347818/using-mathjax-on-a-github-page)
+- [Markdown + Mathjax => PDF](https://tex.stackexchange.com/questions/290617/markdown-mathjax-pdf)
+- [How Can I Convert Github-Flavored Markdown To A PDF](https://superuser.com/questions/689056/how-can-i-convert-github-flavored-markdown-to-a-pdf)

@@ -14,7 +14,7 @@ $$
 或者更复杂一点的：
 
 $$
-    (x+1)^n = \sum_{i=1}^{n} \frac{ i ! \cdot (n-i) ! } { n ! } \cdot x^i
+    (x+1)^n = \sum_{i=1}^{n} \left( \frac {n!} { i ! \cdot (n-i) ! } x^i \right)
 $$
 
 

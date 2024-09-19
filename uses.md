@@ -18,3 +18,5 @@ Some tools I am currently using.
 ### Hardware
 
 * [Surface Laptop 9](https://www.microsoft.com/en-us/p/surface-laptop-3/8vfggh1r94tm?activetab=overview) - My Wife bought one for me as a present!
+
+### Wow Addons & WeakAuras

@@ -7,15 +7,15 @@ category: posts
 
 Github Docs 支持直接在Markdown里写数学公式，比如
 
-```math
+\[
     E = mc^2
-```
+\]
 
 或者更复杂一点的：
 
-```math
+$$
     (x+1)^n = \sum_{i=1}^{n} ( i ! \cdot (n-i) ! ) / ( n ! ) \cdot x^i
-```
+$$
 
 
 还在研究当中，这里记录一点研究的内容

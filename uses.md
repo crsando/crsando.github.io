@@ -20,3 +20,7 @@ Some tools I am currently using.
 * [Surface Laptop 9](https://www.microsoft.com/en-us/p/surface-laptop-3/8vfggh1r94tm?activetab=overview) - My Wife bought one for me as a present!
 
 ### Wow Addons & WeakAuras
+
+* [Paladin Common](/wow/wa/paladin_common.txt)
+* [Holy Paladin](/wow/wa/holy_paladin_1.txt)
+* [Holy Paladin - Awakening](/wow/wa/holy_paladin_awake.txt)

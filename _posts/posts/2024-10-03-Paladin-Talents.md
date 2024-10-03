@@ -14,7 +14,7 @@ category: posts
 
 ![](/images/2024-10-03/nq-talents.jpg)
 
-这种终于找到机会在7层仙林和8层仙林测试了一下，感觉熟悉了之后，体验非常好，瞬发舒服。
+这种终于找到机会在[7层仙林](https://www.bilibili.com/video/BV1ubxDe7ES8)和8层仙林测试了一下， 感觉熟悉了之后，体验非常好，瞬发舒服。
 
 几个重点是：
 

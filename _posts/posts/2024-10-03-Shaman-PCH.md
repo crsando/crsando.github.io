@@ -15,6 +15,8 @@ category: posts
 
 毕竟8月份开服回归，前夕版本完全没玩奶萨，之前版本也从来没玩过，从开了大米后才开始主玩奶萨，确实操作上还有很多不足。
 
+最后装等615，四件套，能在不足620的情况下能过10层也算是不错了。
+
 Anyway, 游戏麻，慢慢娱乐，保持开心！
 
 Mark
@@ -22,3 +24,7 @@ Mark
 ![](/images/2024-10-03/1.png)
 
 ![](/images/2024-10-03/2.png)
+
+> [WCL](https://www.warcraftlogs.com/reports/LhQvKAFDbYnB4GjN#fight=5&type=summary)
+
+> [Bilibili](https://space.bilibili.com/471581859)

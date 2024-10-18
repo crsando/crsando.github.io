@@ -13,7 +13,7 @@ The aim of this publication is focused on Chinese Bond Market and certain Global
   {% for weekly in site.categories.weekly %}
     <li class="post">
       <a href="{{ weekly.url }}">{{ weekly.title }}</a>
-      <time class="publish-date" datetime="{{ thought.date | date: '%F' }}">
+      <time class="publish-date" datetime="{{ weekly.date | date: '%F' }}">
         {{ weekly.date | date: "%B %-d, %Y" }}
       </time>
     </li>

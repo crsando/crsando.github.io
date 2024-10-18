@@ -3,9 +3,9 @@ layout: default
 title: Weekly
 ---
 
-## Math
+## Chinese
 
-My Math Collections
+My Chinese Articles
 
 <ul class="posts">
   {% for chinese in site.categories.chinese %}

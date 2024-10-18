@@ -8,11 +8,11 @@ title: Weekly
 My Math Collections
 
 <ul class="posts">
-  {% for math in site.categories.math %}
+  {% for weekly in site.categories.math %}
     <li class="post">
-      <a href="{{ math.url }}">{{ math.title }}</a>
-      <time class="publish-date" datetime="{{ math.date | date: '%F' }}">
-        {{ math.date | date: "%B %-d, %Y" }}
+      <a href="{{ weekly.url }}">{{ weekly.title }}</a>
+      <time class="publish-date" datetime="{{ weekly.date | date: '%F' }}">
+        {{ weekly.date | date: "%B %-d, %Y" }}
       </time>
     </li>
   {% endfor %}

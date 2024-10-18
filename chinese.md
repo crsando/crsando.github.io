@@ -8,11 +8,11 @@ title: Weekly
 My Chinese Articles
 
 <ul class="posts">
-  {% for chinese in site.categories.chinese %}
+  {% for weekly in site.categories.chinese %}
     <li class="post">
-      <a href="{{ chinese.url }}">{{ chinese.title }}</a>
-      <time class="publish-date" datetime="{{ chinese.date | date: '%F' }}">
-        {{ chinese.date | date: "%B %-d, %Y" }}
+      <a href="{{ weekly.url }}">{{ weekly.title }}</a>
+      <time class="publish-date" datetime="{{ weekly.date | date: '%F' }}">
+        {{ weekly.date | date: "%B %-d, %Y" }}
       </time>
     </li>
   {% endfor %}

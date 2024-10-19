@@ -1,51 +1,47 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | Crsando</title>
 
-    {% include meta.html %}
+    <!-- <meta name="google-site-verification" content="myIv9g0szZwjZ8dYBtedNqm58wtN50DR2xIBVdFRcro" /> -->
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <link href="/assets/css/rouge-github.css" rel="stylesheet">
+    <link href="/assets/css/custom.css" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    <link rel="canonical" href="{{ site.url }}" />
   </head>
-
   <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+    {% include header.html %}
 
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
+    <nav>
+      <ul>
+        <li><a href="/">Posts</a></li>
+        <li><a href="/thoughts">Thoughts</a></li>
+        <li><a href="/weekly">Weekly</a></li>
+        <li><a href="/math">Math</a></li>
+        <li><a href="/chinese">Chinese</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/uses">Uses</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </nav>
 
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
-        </header>
-      </div>
+    <div class="container">
+      <main>
+        {{ content }}
+      </main>
     </div>
+    
+    <script src="/assets/js/main.js"></script>
 
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
+    <script src="https://unpkg.com/css-paint-polyfill@3.2.0/dist/css-paint-polyfill.js"></script>
+    <script src="/assets/js/confetti.js"></script>
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
-
-    {% include analytics.html %}
+    <!-- MathJax -->
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   </body>
 </html>

@@ -37,3 +37,17 @@ category: posts
 然后，另外单独做一个范围的判断，判断插入tick的时间戳是否在交易时间内，也就是是否有效。
 
 这个单独在lua里做一套，还在写，感觉涉及时间的事情真的是麻烦啊。。。
+
+# 一个坑
+
+这里顺便记录一个涉及timezone的坑，凡是涉及日期时间都是大坑。
+
+在questdb里是有市区的，我目前的代码里把unix epoch插入到questdb后，因为questdb默认是按照美国的时间（似乎），所以直接select
+现实出来的时间和中国时间是对不上的。
+
+因此要显示正确，需要在questdb里头`to_timezone(timestamp, 'Asia/Shanghai')`
+
+但是将这个转化为unix epoch的时候，却需要直接`cast(timestamp as long)`（这样出来是microseconds，记住），如果用
+`cast(to_timezone(timestamp, 'Asia/Shanghai') as long)`出来的反而是和直接代码里头转化unix epoch是不对的。
+
+只能说，怎么插入的，怎么反向回来吧。。。

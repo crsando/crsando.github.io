@@ -97,7 +97,7 @@ $$
 另一方面，由 $a_n \geq \frac{4}{(n+1)^2}$, 易得
 
 $$
-    a_n \geq 4 \cdot (\frac{1}{n+1} - \frac{n+2})
+    a_n \geq 4 \cdot (\frac{1}{n+1} - \frac{1}{n+2})
 $$
 
 

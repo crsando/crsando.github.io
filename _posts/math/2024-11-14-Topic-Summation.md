@@ -213,3 +213,21 @@ $$
 $$
 
 因此$a_{n+1} \geq (1+\epsilon)^n a_1$，显然$a_n$无极限。原题得解。
+
+### 4
+
+*北京大学2024年强基计划*
+
+求 $ \sum_{i=1}^{2024} \lfloor \frac{19^i}{20} \rfloor$ 模 $7$ 的余数
+
+> 就题就是考验求和运算的基本功，仔细+细心
+
+考察求和的单项
+
+$$
+\begin{align}
+    a_m &= \lfloor \frac{19^m}{20} \rfoor  \\
+        &= \lfloor \frac{(20-1)^m}{20} \rfloor \\
+        &= \lfloor \frac{\sum_{k=0}^m \binom{m}{k}(-1)^{m-k}20^k }{20} \rfloor \\
+\end{align}
+$$

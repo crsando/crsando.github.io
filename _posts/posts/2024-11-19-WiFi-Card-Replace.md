@@ -30,3 +30,18 @@ category: posts
 不过似乎同样的问题依旧发生：
 
 ![](/images/2024-11-19/Screenshot 2024-11-19 181415.png)
+
+###
+
+网卡更换后有一个小问题：原本的蓝牙连接都不能用了，且在windows控制面板中无法移除设备和重新连接。
+
+解决这个问题的方法是，在Device Manager中，View -Show hidden devices，然后把所有的蓝牙设备移除，
+重启电脑，让电脑自动重新安装蓝牙驱动，然后就重新连接所有的设备就行了。
+
+```
+I solved this problem by clicking the "View - Show hidden devices" in the Device Manager then manually remove all the Bluetooth devices. 
+
+It turned out that  this is not a hardware issue, but the system picking up redundant device info from the previous motherboard. 
+
+Problem solved, I'm all good now.
+```

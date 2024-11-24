@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Bye Omnivore, Try Wallabag, Then ReadDeck
+title: Bye Omnivore, Try Wallabag, Then Readeck
 tags: life,software
 category: posts
 ---
 
-Omnivore 是我用的一个web server，提供read-it-later功能
+*Omnivore* 是我用的一个web service，提供read-it-later功能
 
 虽然用的很少，但我却发现用它来保存微信公众号的文章非常方便（微信几乎没有提供任何整理功能）
 

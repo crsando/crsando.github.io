@@ -121,3 +121,5 @@ Fed 联储 11 月初的议息会议纪要，票委会上对明年整体的降息
 * [一些关于贝森特的故事 - 经济，汇率](https://mp.weixin.qq.com/s/wvrAk5-QM6vbXurJRUz9SQ)
 * [美国新财长的新叙事](https://mp.weixin.qq.com/s/fjNWbGQ7cjY1L1LwyDraFg)
 * [前索罗斯顾问：为什么贝森特可能成为特朗普的詹姆斯·贝克](https://mp.weixin.qq.com/s/Z89X4sD1aTGHoA-6hzVQXg)
+* [聊聊川普“80后”新班子](https://mp.weixin.qq.com/s/wP8jtGMhsJu0-8Iq_GpPnA)
+* [Ray Dalio：风雨欲来](https://mp.weixin.qq.com/s/UBdkIFwJIeXRJPqs0BSIkg)

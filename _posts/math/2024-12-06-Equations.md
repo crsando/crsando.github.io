@@ -145,3 +145,66 @@ $$
 由于上式左边为偶数，故$x$为奇数。对于$k \geqslant 1$的情况下，左边是2的倍数但不是4的倍数，而右边必然是4的倍数，矛盾。
 
 综上，当且仅当$n=1$时，$2^n + 7^n$为完全平方数。
+
+# 5
+
+以下均考虑轮换堆成，记$x_3$为方程2和方程3的公共根（$x_1,x_2$类推，下略），则显然
+
+$$
+    x_3 = - \frac{c-a}{b-c}
+$$
+
+由轮换对称，显然$\prod x_i = -1$
+
+另一方面，注意到方程1的两个根一定是$x_1$和$x_2$，所以
+
+$$
+    F = \prod (x-x_i) = (x^2 + ax+b)(x-x_3) = x^3 + (a-x_3) + (b-ax_3) - bx_3
+$$
+
+比较两边的系数，显然有
+
+$$
+    bx_3 = \prod x_i = -1 \implies x_3 = - \frac{1}{b}
+$$
+
+所以显然 $abc = - \frac{1}{\prod x_i} = 1$
+
+比较$x^2$的系数，有
+
+$$
+    a - x_3 = - \sum x_3 \implies a = \frac{1}{c} + \frac{1}{a}
+$$
+
+轮换对称求和，有（利用$abc = 1$）
+
+$$
+    \sum a = 2 \sum ab
+$$
+
+另一方面，由于$x_3 = - \frac{1}{b}$，所以有
+
+$$
+    - \frac{1}{b} = - \frac{c-a}{b-c} \implies 1 - \frac{c}{b} = c - a
+$$
+
+轮换求和，有
+
+$$
+    3 - \sum \frac{c}{b} = \sum (c-a) = 0 \implies \sum \frac{c}{b} = 3
+$$
+
+另一方面，比较$F$的$x$的系数，有
+
+$$
+    b + \frac{a}{b} = \sum x_i x_j = a + b + c \\
+    \implies a = ba + bc \\
+    \implies a^2 = ba^2 + 1 \\
+    \implies a^2 = \frac{a}{c} + 1 \\
+$$
+
+同样轮换求和，得到
+
+$$
+    \sum a^2 = 3 + \sum \frac{a}{c} = 3 + \sum \frac{c}{b} = 6
+$$

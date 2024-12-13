@@ -340,3 +340,42 @@ $$
 $x = \frac{-1 + \sqrt{4a - 3}}{2}$
 
 综上...
+
+# 9
+
+[Source](https://www.bilibili.com/video/BV1QaieY1EBS/?spm_id_from=333.1007.tianma.2-3-6.click&vd_source=2c3b1cf87d67c244536d57d4d5b68285)
+
+解方程：
+
+$$
+    x^x = 2^{3x + 192}
+$$
+
+***Solution***
+
+> 解法1
+
+令$x = 2^n$，则方程等价于
+
+$$
+\begin{aligned}
+    & 2^{n \cdot 2^n} = 2^{3 \cdot 2^n + 192} \\
+    \implies & n \cdot 2^n = 3 \cdot 2^n + 192 \\
+    \implies & (n-3) \cdot 2^n = 3 \cdot 2^6 \\
+\end{aligned}
+$$
+
+显然$n = 6$，$x = 2^6 = 64$为所求解。唯一性的证明略。
+
+> 解法2
+
+$$
+\begin{aligned}
+    & x^x = 2^{3x + 192} \\
+    \implies & x^x = 8^x \cdot 2^{192} \\
+    \implies & (\frac{x}{8})^x = 2^{192} \\
+    \implies & (\frac{x}{8})^{\frac{x}{8}} = 8^{8} \\
+\end{aligned}
+$$
+
+显然$ \frac{x}{8} = 8$,得 $x = 64$

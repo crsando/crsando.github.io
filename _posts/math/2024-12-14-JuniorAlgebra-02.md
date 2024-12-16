@@ -698,3 +698,142 @@ $a+b+c \geqslant 29$
 
 由二次函数的性质，必然有$f(-\frac{1}{3}) > 0$，整理得 $a - 3b + 9c > 0$，
 其它略。
+
+# 19
+
+已知$x,y \in R^+$, $ 2x + 8y = xy$，求$x + y $的最小值
+
+***Solution***
+
+记$t = x+y > 0$，则
+
+$$
+    2t + 6y = (t-y)y \\
+    \implies y^2 + (6-t)y + 2t = 0
+$$
+
+判别式
+
+$$
+    (6-t)^2 \geqslant 8t
+    \implies (t-10)^2 \geqslant 64
+$$
+
+结合$t > 0$，得$t \geqslant 18$。解的存在性证明略。
+
+> 另一个偏向于不等式的做法
+
+由条件$x,y > 0$，可知$xy = 2x + 8y > 8y$，所以$x > 8$，同理$y > 2$
+
+整理得
+
+$$
+    xy = 2x + 8y \\
+    \implies (x-8)(y-2) = 16 \\
+$$
+
+另一方面
+
+$$
+    4(x-8)(y-2) \leqslant ( x - 8 + y - 2)^2 = (x+y - 10)^2 \\
+    \implies |x+y-10| \geqslant 8
+$$
+
+由于$x +y > 8 + 2 = 10$，因此$x + y - 10 \geqslant 8$, $x +y \geqslant 18$
+
+# 20
+
+已知
+
+$$
+    \sqrt{8-x} + \sqrt{x-3} \geqslant k
+$$
+
+恒成立，求$k$的最大值。
+
+***Solution***
+
+由条件，$3 \leqslant x \leqslant 8$
+
+令$S = \sqrt{8-x} + \sqrt{x-3}$，则
+
+$$
+    S^2 = 5 + \sqrt{(8-x)(x-3)} \geqslant 5
+$$
+
+等号在$x = 3$或$x = 8$时成立，因此$S \geqslant \sqrt{5}$，所求
+$k$的最大值为$\sqrt{5}$
+
+# 21
+
+二次函数$y = ax^2 + bx + c$与轴的交点为$A$,$B$，已知$A$,$B$到
+原点的距离均小于$1$，且$a,b,c$为正整数，求$a+b+c$的最小值。
+
+***Solution***
+
+> 这题有个小问题，是没有说明$A \not = B$，否则的话，其实可以取$(a,b,c) = (4,4,1)$，即$y = (2x+1)^2$，有唯一交点$x = - \frac{1}{2}$满足条件
+
+> 所以以下的解答，要求两个交点不同，因此$b^2 > 4ac$
+
+由于$a,b,c$均为正整数，方程$ax^2 + bx + c = 0$的两个根均为
+负数，由条件，必然都在$(-1,0)$的范围之内。
+
+由二次函数的性质，可知$a(-1)^2 + b(-1) + c > 0$，即$a - b + c > 0$
+
+再由判别式，可知$b^2 > 4ac$
+
+不妨设两个根分别为$u,v$，由条件，可知
+
+$$
+    2 > u^2 + v^2 = (u+v)^2 - 2uv = \frac{b^2}{a^2} - \frac{2c}{a}
+    \implies 2a^2 > b^2 - 2ac
+$$
+
+再带入$b^2 > 4ac$，可知$2a^2 > 4ac$,因此$a > 2c$，进而有$a \geqslant 2c + 1$
+
+
+再由于$b^2 \geqslant 4ac \geqslant 4 \cdot 3 = 12$，所以$b \geqslant 4$，此时$a + c \geqslant 5$，带入，有
+
+$$
+    3a \geqslant 2a + 2c + 1 \geqslant 2b + 3 \geqslant 11
+$$
+
+所以$a \geqslant 4$，此时$b^2 > 4ac \geqslant 20$，所以$b \geqslant 5$
+
+所以$a + b + c \geqslant 2b + 1 \geqslant 11$
+
+易于验证$(a,b,c) = (5,5,1)$是一组符合条件的解。此时$a + b +c = 11$
+
+综上,$a+b+c=11$即为所求的最小值。
+
+# 22
+
+已知$n,k \in Z^+$满足 
+
+$$
+    \frac{7}{13} < \frac{n}{n+k} < \frac{6}{11}
+$$
+
+(1) 对所有满足条件的$n,k$，求$\frac{n+1}{n+k}$的最大值
+
+(2) 若$n$满足：恰有$r$个$k$使不等式成立，则称$n$为$r$阶好数。所有$r$阶好数的个数记为$f(r)$，求$f(r)$的解析式。
+
+***Solution***
+
+原不等式等价于
+
+$$
+    \frac{7}{6} < \frac{n}{k} < \frac{6}{5}
+$$
+
+等价于
+
+$$
+    \lceil \frac{6n}{7} \rceil - 1 \geqslant k 
+    \geqslant \lfloor \frac{5n}{6} \rfloor + 1
+$$
+
+$$
+    k + \lfloor \frac{k}{6} \rfloor + 1 \leqslant n 
+    \leqslant k + \lceil \frac{k}{5} \rceil - 1
+$$

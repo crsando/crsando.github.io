@@ -208,3 +208,40 @@ $$
 $$
     \sum a^2 = 3 + \sum \frac{a}{c} = 3 + \sum \frac{c}{b} = 6
 $$
+
+# 6
+
+[Source: 广州初中数学竞赛题](https://www.bilibili.com/video/BV18QqqYWEoB/?spm_id_from=333.1007.tianma.2-1-4.click&vd_source=2c3b1cf87d67c244536d57d4d5b68285)
+
+解方程
+
+$$
+    x^3 + (2x^3 + x - 3)^3 = 3
+$$
+
+***Solution***
+
+> 这种降次的基本思路是消掉常数项目
+
+令$y = 2x^3 - 3$，原方程$\times 2$之后整理可得
+
+$$
+    y + 2(x+y)^3 = 3
+$$
+
+另一方面，由$y$的定义：
+
+$$
+    y - 2x^3 = -3
+$$
+
+两式子相加，可知
+
+$$
+    2y - 2\Big((x+y)^3 - x^3) \Big ) = 0 \\
+    \implies 2y\Big ( 1 + 3x^2 + 3xy + y^2\Big) = 0 \\
+    \implies 2y \cdot \frac{3}{4}\Big ( \frac{1}{3} + 4x^2 + 4xy + \frac{4}{3}y^2\Big) = 0 \\
+    \implies \frac{3}{2}y \Big ( \frac{1}{3} + (2x+y)^2 + \frac{1}{3}y^2\Big) = 0
+$$
+
+显然最后一式中括号内$ > 0$，因此只能是$y = 0$即$2x^3 = 3$，解得$x = \sqrt[3]{3/2}$

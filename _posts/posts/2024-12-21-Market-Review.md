@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Market Review 2024-12-08
+title: Market Review 2024-12-21
 tags: trading
 category: posts
 ---

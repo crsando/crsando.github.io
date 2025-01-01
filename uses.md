@@ -14,6 +14,8 @@ Some tools I am currently using.
 ### Desktop Apps
 
 * [Windows Terminal](https://github.com/microsoft/terminal) - For when I need to use the command-line.
+* [OneNote](https://www.onenote.com/) - Simple but dynamic.
+* [Calibre](https://calibre-ebook.com/download_windows) - Building my personal library.
 
 ### Hardware
 
@@ -23,8 +25,8 @@ Some tools I am currently using.
 
 * [Plater Profile : Jundies](https://wago.io/ak3iS95aa) - Clean and Full-Functioning
 * [Clean Icons - Mechagnome Edition](https://github.com/AcidWeb/Clean-Icons-Mechagnome-Edition) - High Resolution (Upscaled) Icons, with clean square borders
-* [Narcissus](https://www.curseforge.com/wow/addons/narcissus) - display character info in a very nice way
-* [GPT_SoVITs](http://gsv.acgnai.top) - For generate custom audio alerts using AI
+* [Narcissus](https://www.curseforge.com/wow/addons/narcissus) - Character Info Dislayed in a very nice way
+* [GPT_SoVITs](http://gsv.acgnai.top) - To generate custom audio alerts using AI
 
 ### WoW WeakAuras
 

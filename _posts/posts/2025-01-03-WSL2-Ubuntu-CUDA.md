@@ -81,9 +81,35 @@ git clone https://github.com/NVIDIA/cuda-samples.git
 
 直接
 
-```
+```bash
 cd <sample_dir>
 make
 ```
 
 > 好像不太行。。。WSL2的版本不够。。。
+
+# 在Mac上测试whisper.cpp
+
+先吧文件格式处理一下（只接受16kHZ的wav文件）
+
+```bash
+ffmpeg -i /path/to/input-file.mp3 -ar 16000 /path/to/output-file.wav
+```
+
+正常用homebrew装```ffmpeg```， 弄好git，
+
+```bash
+git clone https://github.com/ggerganov/whisper.cpp.git
+```
+
+直接```make```即可，然后下载模型文件
+
+
+```bash
+cd models
+bash ./download-ggml-model.sh small
+```
+
+弄transcript的时候使用```whisper-cli```，用`-f`指定稳健，用`-l zh`指定是中文（或者`-l auto`）
+
+不过测试了一下，貌似没有用成Metal GPU，不知道啥问题，还得研究一下。

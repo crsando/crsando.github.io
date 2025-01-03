@@ -88,6 +88,10 @@ make
 
 > 好像不太行。。。WSL2的版本不够。。。
 
+> 更新了WSL2的内核，然后从WSL1改成WSL2，ok了
+
+ > 成功的标志之一实在wsl里成功运行nvidia-smi
+
 # 在Mac上测试whisper.cpp
 
 先吧文件格式处理一下（只接受16kHZ的wav文件）
@@ -142,3 +146,9 @@ cmake --build build -j --config Release
 后面就成功了
 
 不过在我的M1 Macbook Air上，速度一般，但确实比cpu有明显变化了
+
+# Update 2
+
+在我的WSL2（4070s）上测试了一下，同样一个音频文件，跑whisper.cpp
+
+确实还是4070s比M1快不少（废话）

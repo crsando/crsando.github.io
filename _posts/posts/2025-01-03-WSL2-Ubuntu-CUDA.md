@@ -113,3 +113,32 @@ bash ./download-ggml-model.sh small
 弄transcript的时候使用```whisper-cli```，用`-f`指定稳健，用`-l zh`指定是中文（或者`-l auto`）
 
 不过测试了一下，貌似没有用成Metal GPU，不知道啥问题，还得研究一下。
+
+# Update
+
+搞定了用CoreML
+
+但是吧，这个过程真的非常痛苦
+
+按照whisper.cpp上的说明，是需要先下载模型，然后安装python环境，然后运行generate-coreml-model.sh把模型
+转换一下
+
+但是，这个过程，根本跑不通，试了很多网上的教程，运行python都会有问题
+
+对于环境的版本（numpy是1.X还是2.X，torch的版本等）都有影响
+
+最后还是从hugging face上下载了一个
+
+[Link](https://huggingface.co/chidiwilliams/whisper.cpp-coreml/tree/main)
+
+然后重新编译whisper.cpp
+
+```bash
+# using CMake
+cmake -B build -DWHISPER_COREML=1
+cmake --build build -j --config Release
+```
+
+后面就成功了
+
+不过在我的M1 Macbook Air上，速度一般，但确实比cpu有明显变化了

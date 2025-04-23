@@ -3,7 +3,7 @@ layout: post
 title: 正方形中心连线，垂直且相等
 tags: math,education,geometry
 category: math
----- 
+---
 
 [Source](https://www.bilibili.com/video/BV1GKZ2YBEWp/?spm_id_from=333.337.search-card.all.click&vd_source=2c3b1cf87d67c244536d57d4d5b68285)
 

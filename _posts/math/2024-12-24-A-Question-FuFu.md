@@ -3,7 +3,7 @@ layout: post
 title: 一个比较有意思的组合数论问题
 tags: math,education,algebra
 category: math
----- 
+---
 
 *2014 复旦附中自招压轴题*
 

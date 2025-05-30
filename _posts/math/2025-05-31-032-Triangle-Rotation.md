@@ -5,6 +5,8 @@ tags: math,education,geometry
 category: math
 ---
 
+[Source](https://www.bilibili.com/video/BV1He4y1e7ox/?spm_id_from=333.337.search-card.all.click&vd_source=2c3b1cf87d67c244536d57d4d5b68285)
+
 已知三角形$\triangle ADE$, $\triangle ABC$都是等腰直角三角形，且$AE, AC$分别是长边。在$EC$上选取一点$F$，使得$\triangle BDF = 45^\circ$。
 
 求证：$\triangle BDF$是等腰直角三角形
@@ -28,3 +30,5 @@ category: math
 由于旋转角度也必然是$90^\circ$，所以$\angle GBF = 90^\circ$，剩下的是显然的。
 
 ***Solution 2***
+
+![](https://crsando.github.io/images/2025-05-31/A-001-Ans-2.png)

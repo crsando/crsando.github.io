@@ -35,3 +35,5 @@ category: math
 ### 5
 
 已知等边三角形$\triangle ABC$, $D$为$BC$外与$A$不同侧一点，若$\angle BDC = 30^\circ$，求证：$BD^2 + CD^2 = AD^2$
+
+![](https://crsando.github.io/images/2025-08-31/S-005.png)

@@ -62,3 +62,9 @@ $\angle B = 60^\circ$怎么用还是比较清楚的，从$AC = CD$来看，本�
 所以$EC = EX$，我们只需要证明$AE = EX$，这里大胆去猜$A,X$关于$BC$对称，所以只需要证明$\triangle ABC \cong \triangle XBC$即可。
 
 这其实非常容易，因为$CX = CD = AC$，然后同样算角度可以算出来$\angle ACB = \angle XCB = 60^\circ - \angle DCB$。再结合公共边$BC$，所以全等$\triangle ACB \cong \triangle XCB$
+
+### 2
+
+![](https://crsando.github.io/images/2025-10-06/H-003.png)
+
+![](https://crsando.github.io/images/2025-10-06/H-003-Ans.png)

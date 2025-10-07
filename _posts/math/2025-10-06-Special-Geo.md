@@ -65,6 +65,24 @@ $\angle B = 60^\circ$怎么用还是比较清楚的，从$AC = CD$来看，本�
 
 ### 2
 
+已知$\triangle ABC$，$BC$边上有一点$D$，满足$\angle BAD = \angle CAD = 30^\circ$，且$AB = 2$, $BC = \sqrt{6}$。求$AD$的长度。
+
 ![](https://crsando.github.io/images/2025-10-06/H-003.png)
 
+***Solution***
+
+这题角平分线和$30^\circ, 60^\circ$，比较自然的想法是从$B$想$AD$作垂直线，把等边三角形$\triangle ABP$补出来。
+
+所以从画图的角度来说，其实核心是先画一个边长为$2$的正三角形，然后从$B$为圆心，以$\sqrt{6}$为半径画圆，交$AP$的延长线于$C$
+
 ![](https://crsando.github.io/images/2025-10-06/H-003-Ans.png)
+
+那么我们自然考虑怎么确定$C$的位置，既然是这么画，那么从$B$想$AC$作垂直就比较自然的，作$BE \perp AC$于$E$，那么$BE = \sqrt{3}$，所以$BE : BC = 1 : \sqrt{2}$，这里不需要勾股定理直接看出来$\triangle BEC$是一个等腰直角三角形，$\angle C = 45^\circ$。
+
+所以$EC = \sqrt{3}$, $AC = 1 + \sqrt{3}$。
+
+现在为了计算$AD$，我们需要考虑$BC$上的高来构造勾股定理。
+
+作$AF \perp BC$于$F$，那么$AF = \frac{\sqrt{6} + \sqrt{2}}{2}$，这里其实看出来$\angle BAF = 15^\circ$（实际上不需要看出来，直接用$45^\circ$计算即可）
+
+所以$\angle BAF = \angle DAF$，故$\triangle BAF \cong \triangle DAF$，所以$AD = AB = 2$

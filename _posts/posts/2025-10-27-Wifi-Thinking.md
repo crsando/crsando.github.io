@@ -48,3 +48,11 @@ last_updated: 2025-10-27
 目前我家里的光猫
 
 ![](/images/2025-10-27/gateway.jpg)
+
+---
+
+一个坑
+
+掏出不知道啥时候老妈送的Redmi Note 13R，安装Wifi Analyzer，研究了半天，确认我一直看到的一个hidden ssid是从我的中兴5400发出来的。
+
+搜索了一下，猜测这个可能是跟mesh有关，在路由器配置里关掉了所有mesh有关的东西，这个network消失了。

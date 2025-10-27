@@ -41,6 +41,7 @@ last_updated: 2025-10-27
 - [R7000 Suppor5](https://support.netgear.com/support/product/r7000#docs)
 - [TxRate - measure Wi-Fi transmit speed in real-time](https://www.duckware.com/txrate/index.html)
 - [WiFiAnalyzer - Android下的分析工具](https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer)
+- [mesh技术详解——不同品牌路由器怎么组mesh网络？路由器|无线路由器|openWRT|mesh网络](https://www.youtube.com/watch?v=zBoRFh8xTks)
 
 --- 
 

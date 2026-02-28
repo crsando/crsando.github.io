@@ -24,6 +24,10 @@ last_updated: 2026-02-18
 
 用了一段时间非常舒适。再用几年再考虑入坑客制化的问题吧（笑）
 
+顺便一提，这台键盘压箱底了5年零2个月。买了之后甚至快递包装都没拆开过。
+
+![](https://raw.githubusercontent.com/crsando/picgo/main/20260228205555978.png)
+
 ### 2
 
 网络方面，换了两个东西，本质都是从老的Clash内核切换到新的Mihomo内核（之前尝试在mac上先试用sing-box，配置么搞懂，失败了）
@@ -96,3 +100,11 @@ iPhone 12 Pro是我用过的时间最长的手机了。当时发售的时候看�
 拿到之后就给家里的猫猫拍了很多视频。
 
 今年如果有时间，还想学习一下简单的剪辑，能批接转场调色就行，希望能多学一点新东西！
+
+### 5
+
+哦，对了，我一贯都是用iPhone的默认壁纸的，但是我还是很怀念我iPhoen 12 Pro的老壁纸，不是很喜欢新iPhoen 17的
+
+所以我查询Gemini后去Unsplash这个网站上，挑了一个
+
+![](https://raw.githubusercontent.com/crsando/picgo/main/ryan-klaus-8QjsdoXDsZs-unsplash.jpg)

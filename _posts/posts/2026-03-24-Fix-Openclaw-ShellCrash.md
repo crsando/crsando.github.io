@@ -35,3 +35,7 @@ last_updated: 2026-03-10
 开启域名嗅探前，这里connect都是各种ip，其实分流规则基本没有生效。开启后分流规则就正常了。
 
 ![](https://raw.githubusercontent.com/crsando/picgo/main/20260324132348868.png)
+
+现在telegram里使用的效果：
+
+![](https://raw.githubusercontent.com/crsando/picgo/main/20260324132425299.png)

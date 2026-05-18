@@ -90,9 +90,23 @@ ShellCrash的自定义规则增加特别简单，直接找 `/etc/ShellCrash/yaml
 
 ![](https://raw.githubusercontent.com/crsando/picgo/main/51105a522929137440b277309a4103c6.png)
 
+### Update 2026-05-18
+
+今天终于搞明白了一个问题，就是 ***OpenClaw*** 默认其实是需要一个专门的 *imageModel* 来对接收到的图片文件进行识别，这样的好处是便宜，坏处是和主模型是割裂的。
+
+今天查了一下，可以通过修改配置的方式，强制要求用主模型来进行识别
+
+```bash
+openclaw config set tools.media.image.enabled false
+```
+
+主模型需要配置一下，允许 *image*，然后就可以了。
+
 ### To be continued
 
 后续其实还有很多可以挖掘的空间，比如如何更好的复盘，整理等等，这个慢慢磨合吧。在这个过程中也考察并使用了腾讯的 ***ima***，这个作为一个辅助记忆的工具的好处是天然云同步，我手机上也好看，缺点毕竟是私有的。我先尝试拿 ***ima*** 帮我做一些归档的笔记之类的，碎片化的先用 ***memos***，笔记这个可以支持标签还是非常方便的。
+
+最近也在尝试obsidian，这个国外用的人更多，支持更好。
 
 # Other to be considered
 
